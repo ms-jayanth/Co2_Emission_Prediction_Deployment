@@ -9,7 +9,7 @@ A faster way to build and deploy data apps. Streamlit is the first app framework
 <br>
 Here we have deployed two apps:
 1. EDA
-2. Prediction
+2. Prediction<br>
 for the C02_Emission Data
 
 ### EDA Interface:
