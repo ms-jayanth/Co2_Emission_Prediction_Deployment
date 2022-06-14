@@ -7,7 +7,7 @@
 A faster way to build and deploy data apps. Streamlit is the first app framework build specifically for Machine learning and Data Science teams.
 <br>
 <br>
-Here we have deployed two apps:
+Here I have deployed two apps:
 1. EDA for Co2_Emission_Data
 2. Prediction for Final_Emission_Data
 
