@@ -42,7 +42,7 @@ engine_size = st.sidebar.number_input('Engine size')
 cylinders = st.sidebar.selectbox('Cylinders', sorted(df['cylinders'].unique()))
 transmission = st.sidebar.selectbox('Transmission', sorted(df['transmission'].unique()))
 fuel_type = st.sidebar.selectbox('Fuel Type', sorted(df['fuel_type'].unique()))
-fuel_consumption_comb = st.sidebar.number_input('Combined Fuel Consumption Rating')
+fuel_consumption_comb = st.sidebar.number_input('Combined Fuel Consumption Rating', max_value=10)
 
 if st.sidebar.button("Predict"):
     val = pd.DataFrame({'vehicle_class':vehicle_class, 'engine_size':engine_size, 'cylinders':cylinders, 'transmission':transmission, 'fuel_type':fuel_type, 
