@@ -38,7 +38,7 @@ set_bg_hack_url()
 st.sidebar.header('Select your Features:')
 
 vehicle_class = st.sidebar.selectbox('Vehicle Class', sorted(df['vehicle_class'].unique()))
-engine_size = st.sidebar.number_input('Engine size',, max_value=10)
+engine_size = st.sidebar.number_input('Engine size', max_value=10)
 cylinders = st.sidebar.selectbox('Cylinders', sorted(df['cylinders'].unique()))
 transmission = st.sidebar.selectbox('Transmission', sorted(df['transmission'].unique()))
 fuel_type = st.sidebar.selectbox('Fuel Type', sorted(df['fuel_type'].unique()))
