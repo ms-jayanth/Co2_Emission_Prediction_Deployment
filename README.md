@@ -9,7 +9,7 @@ More info: https://streamlit.io/cloud
 <br>
 <br>
 Here I have deployed two apps:
-1. EDA for Co2_Emission_Data
+1. EDA for Co2_Emission_Data.
 2. Prediction for Final_Emission_Data.
 
 ### EDA Interface:
